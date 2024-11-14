@@ -1,1 +1,9 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore .env file to protect API keys
 .env
+
+# Ignore logs, build artifacts, etc.
+*.log
+dist/
