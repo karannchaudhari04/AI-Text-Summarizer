@@ -101,7 +101,7 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 1. Start the development server:
 ```bash
-npm run dev
+node index.js
 ```
 
 2. Access the application at `http://localhost:3000`
