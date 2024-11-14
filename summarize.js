@@ -1,4 +1,5 @@
 const axios = require('axios');
+require('dotenv').config();
 const apiKey = process.env.ACCESS_TOKEN;
 //This is the function where the call to the API is made. Returns the summarized text as a string.
 
@@ -12,14 +13,14 @@ async function summarizeText(text) {
       "min_length": 30
     }
   });
-  require('dotenv').config();
+
   let config = {
     method: 'post',
     maxBodyLength: Infinity,
     url: 'https://api-inference.huggingface.co/models/philschmid/bart-large-cnn-samsum',
     headers: { 
       'Content-Type': 'application/json', 
-      'Authorization': 'Bearer ${apiKey}',
+      'Authorization': 'Bearer ' + apiKey,
     },
     data : data
   };
