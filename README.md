@@ -1,92 +1,41 @@
-AI Text Summarizer App
-The AI Text Summarizer App is a web-based tool that leverages the power of artificial intelligence to summarize long texts, articles, research papers, or any other lengthy document into concise and meaningful summaries. This application is powered by the Hugging Face API and built with Node.js, Express, and a simple frontend for a seamless user experience.
+# AI Text Summarizer App
 
-Features
-AI-powered Text Summarization: Using the Hugging Face API to generate summaries of long texts.
-User-Friendly Interface: Easy-to-use UI for entering text and viewing the summarized result.
-Real-Time Feedback: Get immediate summaries after clicking the submit button.
-Responsive Design: Mobile and desktop-friendly interface.
-Demo
-Check out the live demo at [Insert Demo Link Here] (e.g., if deployed on Netlify, Vercel, etc.).
+The **AI Text Summarizer App** is a web-based tool that uses AI to summarize long texts. This application uses the Hugging Face API for text summarization and is built with Node.js, Express, and a simple frontend.
 
-Tech Stack
-Frontend:
-HTML, CSS, JavaScript
-Fetch API for making asynchronous requests
-Backend:
-Node.js with Express
-Axios for making API requests to Hugging Face
-AI Integration:
-Hugging Face API (BART model for text summarization)
-Installation
-To run the project locally on your machine, follow these steps:
+## Features
 
-Prerequisites
-Install Node.js and npm if you haven't already.
-Obtain an API token from Hugging Face to use the text summarization model.
-Steps
-Clone the repository:
+- **AI-powered Summarization**: Uses Hugging Face's powerful models to summarize lengthy texts into concise summaries.
+- **User-Friendly Interface**: Simple and intuitive UI to input text and display the summarized content.
+- **Real-Time Summarization**: Get a summary instantly after submitting the text.
+- **Responsive**: Works on both desktop and mobile browsers.
 
-bash
-Copy code
-git clone https://github.com/karannchaudhari04/AI-Text-Summerizer.git
-Navigate to the project folder:
+## Demo
 
-bash
-Copy code
-cd AI-Text-Summarizer
-Install the required dependencies:
+Check out the live demo at [Your Demo Link] (e.g., Vercel, Netlify, etc.).
 
-bash
-Copy code
-npm install
-Set up your Hugging Face API Token:
+## Tech Stack
 
-Create a .env file in the root directory of the project and add your API token:
+- **Frontend**:
+  - HTML, CSS, JavaScript
+  - Fetch API for asynchronous requests
+- **Backend**:
+  - Node.js with Express
+  - Axios for making requests to the Hugging Face API
+- **AI**:
+  - Hugging Face API (BART model for text summarization)
 
-makefile
-Copy code
-ACCESS_TOKEN=your_huggingface_api_token
-Start the application:
+## Installation
 
-bash
-Copy code
-npm start
-Open your browser and go to http://localhost:3000 to access the app.
+Follow these steps to set up the project locally on your machine.
 
-Usage
-Paste the text you want to summarize into the Text Area.
-Click the Summarize button to generate the summary.
-The summarized text will appear in the output area below.
-API
-The backend uses a POST request to the Hugging Face API for text summarization. The API expects a JSON payload with the text to summarize and returns the summarized text.
+### Prerequisites
 
-POST /summarize
-Request:
+- Node.js and npm (Node Package Manager) must be installed. [Download Node.js](https://nodejs.org/).
+- You need a Hugging Face API token. [Get the API key here](https://huggingface.co/).
 
-text_to_summarize (string): The text to be summarized.
-Response:
+### Setup Steps
 
-summary_text (string): The summarized version of the input text.
-Example:
+1. **Clone the repository:**
 
-json
-Copy code
-{
-  "text_to_summarize": "Your lengthy text here"
-}
-Contributing
-We welcome contributions to improve the app! If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Make your changes and commit (git commit -m 'Add feature').
-Push to the branch (git push origin feature-name).
-Create a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Hugging Face: For providing the powerful AI models for text summarization.
-Node.js & Express: For building the backend of this web app.
-Open Source Community: For sharing knowledge and code to help improve the software development process.
+   ```bash
+   git clone https://github.com/karannchaudhari04/AI-Text-Summerizer.git
