@@ -116,14 +116,6 @@ Want to see Your Name on this list? Here's how:
 
 ## Recognition Program
 
-### Monthly MVP
-Each month, we recognize one outstanding contributor who has made exceptional contributions to the project.
-
-**2024 MVPs:**
-* January: Tejas Barguje
-* February: John Doe
-* March: Karan Chaudhari
-
 ### Badges
 Contributors can earn badges based on their contributions:
 
