@@ -39,3 +39,46 @@ Follow these steps to set up the project locally on your machine.
 
    ```bash
    git clone https://github.com/karannchaudhari04/AI-Text-Summerizer.git
+
+Navigate to the project directory:
+
+bash
+Copy code
+cd AI-Text-Summarizer
+Install the necessary dependencies:
+
+bash
+Copy code
+npm install
+Set up the Hugging Face API Token:
+
+Create a .env file in the root directory of the project.
+
+Add your Hugging Face API token to the .env file:
+
+makefile
+Copy code
+ACCESS_TOKEN=your_huggingface_api_token
+Start the server:
+
+bash
+Copy code
+npm start
+Access the app in your browser:
+
+Open your browser and go to http://localhost:3000 to start using the app.
+
+Usage
+Paste the text you want to summarize into the Text Area.
+Click the Summarize button to generate the summary.
+The summarized text will appear in the output area below.
+API
+The app uses a POST request to the Hugging Face API to get the summary.
+
+POST /summarize
+Request:
+
+text_to_summarize (string): The text that needs to be summarized.
+Response:
+
+summary_text (string): The AI-generated summary.
