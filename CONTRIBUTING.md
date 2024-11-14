@@ -184,7 +184,7 @@ When proposing new features:
 - Update changelog
 
 ## Community
-- Follow Me [Twitter](https://x.com/karannchaudhari04)
+- Follow Me [Twitter](https://x.com/karannchaudhari)
 
 ## Questions?
 
