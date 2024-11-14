@@ -1,5 +1,5 @@
 const axios = require('axios');
-
+const apiKey = process.env.ACCESS_TOKEN;
 //This is the function where the call to the API is made. Returns the summarized text as a string.
 
 async function summarizeText(text) {
@@ -19,7 +19,7 @@ async function summarizeText(text) {
     url: 'https://api-inference.huggingface.co/models/philschmid/bart-large-cnn-samsum',
     headers: { 
       'Content-Type': 'application/json', 
-      'Authorization': 'Bearer '+ process.env.ACCESS_TOKEN
+      'Authorization': 'Bearer ${apiKey}',
     },
     data : data
   };
