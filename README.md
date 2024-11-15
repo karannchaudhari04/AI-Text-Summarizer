@@ -31,11 +31,6 @@ A powerful, production-ready text summarization application leveraging state-of-
 - **Error Handling**: Comprehensive error management and user feedback
 - **Performance Optimized**: Efficient request handling and response caching
 
-## 🚀 Demo
-
-Experience the application live at [demo.ai-summarizer.com](https://demo.ai-summarizer.com)
-
-![Application Screenshot](screenshot.png)
 
 ## 🏗 Architecture
 
