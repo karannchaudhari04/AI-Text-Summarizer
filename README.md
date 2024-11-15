@@ -91,32 +91,6 @@ npm run build
 npm start
 ```
 
-## 📚 API Documentation
-
-### POST /api/v1/summarize
-
-Generates a summary for the provided text.
-
-#### Request Body
-
-```json
-{
-  "text": "string",
-  "maxLength": "number (optional)",
-  "minLength": "number (optional)"
-}
-```
-
-#### Response
-
-```json
-{
-  "success": true,
-  "summary": "string",
-  "originalLength": "number",
-  "summaryLength": "number"
-}
-```
 
 ## 🤝 Contributing
 
