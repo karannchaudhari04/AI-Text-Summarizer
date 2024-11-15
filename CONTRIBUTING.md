@@ -2,7 +2,6 @@
 
 First off, thank you for considering contributing to AI Text Summarizer! It's people like you that make this tool a great resource for everyone. This document provides guidelines and steps for contributing.
 
-## C
 
 ## Table of Contents
 - [Getting Started](#getting-started)
