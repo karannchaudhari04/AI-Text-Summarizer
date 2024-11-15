@@ -6,22 +6,6 @@
 
 A powerful, production-ready text summarization application leveraging state-of-the-art AI models through the Hugging Face API. Transform lengthy documents into concise, meaningful summaries with just a few clicks.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Architecture](#architecture)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Configuration](#environment-configuration)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## ✨ Features
 
 - **Advanced AI Summarization**: Powered by Hugging Face's BART model for accurate and context-aware summaries
