@@ -2,9 +2,7 @@
 
 First off, thank you for considering contributing to AI Text Summarizer! It's people like you that make this tool a great resource for everyone. This document provides guidelines and steps for contributing.
 
-## Code of Conduct
-
-By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before contributing.
+## C
 
 ## Table of Contents
 - [Getting Started](#getting-started)
