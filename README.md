@@ -4,7 +4,6 @@
 ![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2014.0.0-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-
 A powerful, production-ready text summarization application leveraging state-of-the-art AI models through the Hugging Face API. Transform lengthy documents into concise, meaningful summaries with just a few clicks.
 
 ## ✨ Features
