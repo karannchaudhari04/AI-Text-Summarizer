@@ -15,7 +15,6 @@ First off, thank you for considering contributing to AI Text Summarizer! It's pe
 - [Community](#community)
 
 ## Getting Started
-
 1. **Fork the Repository**
    - Click the 'Fork' button at the top right of this repository
    - Clone your fork locally: `git clone https://github.com/yourusername/ai-text-summarizer.git`
