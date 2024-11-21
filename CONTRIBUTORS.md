@@ -125,5 +125,4 @@ Contributors can earn badges based on their contributions:
 * 🆕 Newcomer (First contribution)
 
 ---
-
 *This document is automatically updated through our contributor bot. Last updated: November 14, 2024*
