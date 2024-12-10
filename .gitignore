@@ -7,3 +7,4 @@ node_modules
 # Ignore logs, build artifacts, etc.
 *.log
 dist/
+
