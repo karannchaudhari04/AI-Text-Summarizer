@@ -12,6 +12,7 @@ Thanks goes to these wonderful people who have contributed to the AI Text Summar
   * 📝 Documentation
   * 👨‍💻 Backend Development
   * GitHub: [@karannchaudhari04](https://github.com/karannchaudhari04)
+  * 
 
 ### Key Contributors
 
