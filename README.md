@@ -8,6 +8,7 @@ A powerful, production-ready text summarization application leveraging state-of-
 
 ## ✨ Features
 
+
 - **Advanced AI Summarization**: Powered by Hugging Face's BART model for accurate and context-aware summaries
 - **RESTful API**: Well-documented endpoints for seamless integration
 - **Responsive Design**: Optimized user experience across all devices
