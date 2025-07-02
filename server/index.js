@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 // ✅ Allow requests from your Vercel frontend
 app.use(cors({
-  origin: 'https://your-frontend-name.vercel.app'  // 🔁 Replace with your actual frontend URL
+  origin: 'https://ai-text-summerizer.vercel.app/'  // 🔁 Replace with your actual frontend URL
 }));
 
 app.use(express.json());
