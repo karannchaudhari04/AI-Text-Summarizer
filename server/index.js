@@ -1,32 +1,35 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = 3000;
+const cors = require('cors');
 const summarizeText = require('./summarize.js');
+require('dotenv').config();
 
-// Parses JSON bodies (as sent by API clients)
+const port = process.env.PORT || 3000;
+
+// ✅ Allow requests from your Vercel frontend
+app.use(cors({
+  origin: 'https://your-frontend-name.vercel.app'  // 🔁 Replace with your actual frontend URL
+}));
+
 app.use(express.json());
-
-// Serves static files from the 'public' directory
 app.use(express.static(path.join(__dirname, '../frontend')));
 
-// Handle POST requests to the '/summarize' endpoint
-
+// POST route
 app.post('/summarize', (req, res) => {
- // get the text_to_summarize property from the request body
   const text = req.body.text_to_summarize;
 
- // call your summarizeText function, passing in the text from the request
-  summarizeText(text) 
+  summarizeText(text)
     .then(response => {
-       res.send(response); // Send the summary text as a response to the client
+      res.send(response);
     })
     .catch(error => {
       console.log(error.message);
+      res.status(500).send("Something went wrong");
     });
 });
 
-// Start the server
+// Start server
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
