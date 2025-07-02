@@ -23,8 +23,9 @@ app.post('/summarize', (req, res) => {
 
   summarizeText(text)
     .then(response => {
-      res.send(response);
-    })
+    console.log("🧠 Summary from HuggingFace:", response); // 👈 Add this
+    res.send(response);
+  })
     .catch(error => {
       console.log(error.message);
       res.status(500).send("Something went wrong");
