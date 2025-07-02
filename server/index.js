@@ -9,9 +9,8 @@ const port = process.env.PORT || 3000;
 
 // ✅ Allow requests from your Vercel frontend
 app.use(cors({
-  origin: 'https://ai-text-summerizer.vercel.app',
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  origin: 'https://ai-text-summerizer.vercel.app', // ✅ Must match exactly
+  methods: ['POST'],
 }));
 
 
